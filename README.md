@@ -1,6 +1,6 @@
 # Clifford Attractors
 
-Using canvas to generate interesting 2D blobs. Got the idea and formulae from [Clifford Attractors](http://paulbourke.net/fractals/clifford/).
+Using canvas to generate interesting 2D blobs. Got the idea and formulae from [paulbourke.net](http://paulbourke.net/fractals/clifford/).
 
 ## Options
 
