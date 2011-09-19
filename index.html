@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Clifford Attractors</title>
+		
+		<link href="styles.css" rel="stylesheet" />
+		
+		<script src="script.js"></script>
+		
+	</head>
+
+	<body>
+
+		<canvas id="canvas" width="800" height="600">
+		
+			<p>Your browser doesn't support canvas, so you won't see anything. Update your software and we might be in business!</p>
+
+		</canvas>
+		
+		<div id="controls">
+		
+			<h1>Clifford Attractors</h1>
+		
+			<fieldset>
+			
+				<div>
+					<label for="param-a">a</label>
+					<input id="param-a" type="range" value="1.2" step="0.1" min="-2.5" max="2.5" />
+				</div>
+				
+				<div>
+					<label for="param-b">b</label>
+					<input id="param-b" type="range" value="1.9" step="0.1" min="-2.5" max="2.5" />
+				</div>
+				
+				<div>
+					<label for="param-c">c</label>
+					<input id="param-c" type="range" value="-1.2" step="0.1" min="-2.5" max="2.5" />
+				</div>
+				
+				<div>
+					<label for="param-d">d</label>
+					<input id="param-d" type="range" value="0.9" step="0.1" min="-2.5" max="2.5" />
+				</div>
+			
+			</fieldset>
+			
+			<fieldset>
+			
+				<div>
+					<label for="param-scale">Scale</label>
+					<input id="param-scale" type="range" value="150" step="10" min="50" max="400" />
+				</div>
+				
+				<div>
+					<label for="param-opacity">Opacity</label>
+					<input id="param-opacity" type="range" value="10" step="5" min="5" max="255" />
+				</div>
+			
+			</fieldset>
+			
+			<fieldset>
+			
+				<div>
+					<button id="attract">Attract!</button> <small>or press any key</small>
+				</div>
+				
+				<div>
+					<button id="save">Save image</button> <small style="font-size:10px;">(transparent background)</small>
+				</div>
+			
+			</fieldset>
+			
+			<footer>
+			
+				<p>Built with Javascript and canvas. Works best in <a href="http://www.google.com/chrome/">Chrome</a>.</p>
+				
+				<p><a href="http://github.com/andygrn/Clifford-Attractors">Source code</a></p>
+				
+				<p>By <a href="http://andygrn.co.uk">Andy Green</a>.</p>
+			
+			</footer>
+		
+		</div>
+			
+		<script> init(); </script>
+		
+	</body>
+	
+</html>
